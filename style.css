@@ -3,9 +3,15 @@
     color: #484d5c;
     font-size: 150px;
     text-align: center;
-    font-family: 'Orbitron'
+    font-family: 'Orbitron';
 }
 /* Background Custimization (Main)*/
 .gray-background {
     background-color: rgb(220, 225, 227)
+}
+/* Top Text Custimization */ 
+.top-text {
+    background-color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
