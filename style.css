@@ -1,9 +1,9 @@
 /* Header Text Customization */
 .header-text {
-    color: blue;
+    color: #484d5c;
     font-size: 150px;
     text-align: center;
-    font-family: 'Judson', serif;
+    font-family: 'Oswald', sans-serif;
 /* Backgrounf Customization (Main)*/
 }
 .gray-background {
