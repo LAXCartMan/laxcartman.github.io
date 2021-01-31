@@ -15,13 +15,14 @@
     background-color: blue;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 /* Page Link Custimization */ 
 .page-links {
-color: black;
+color: white;
 text-decoration: none;
 }
 /* Page Link Custimization (Hover) */ 
 .page-links:hover {
-    color: blue;
+    color: black;
 }
