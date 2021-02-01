@@ -1,3 +1,7 @@
+/* Make Scrool Bar */ 
+body {
+    min-height: 150vh;
+}
 /* Header Text Customization */
 .header-text {
     color: blue;
@@ -5,6 +9,8 @@
     text-align: center;
     font-family: 'Orbitron';
     background-image: url(https://laxcartman.github.io/images/header-background.jpg);
+    text-decoration: none;
+    
 }
 /* Background Custimization (Main)*/
 .gray-background {
@@ -17,7 +23,7 @@
     font-family: 'Courier New', Courier, monospace;
     color: white;
 }
-/* Page Link Custimization */ 
+/* No Link Decoration */ 
 .page-links {
 color: white;
 text-decoration: none;
@@ -25,4 +31,31 @@ text-decoration: none;
 /* Page Link Custimization (Hover) */ 
 .page-links:hover {
     color: black;
+}
+/* Navigation Bar Stuff */ 
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #767676;
+    text-align: center;
+    text-decoration: none;
+}
+nav ul {
+        margin: 0px;
+        padding: 5px 0px 5px 30px;
+        text-decoration: none;
+    }
+nav li {
+        display: inline;
+        margin-right: 20px;
+        text-decoration: none;
+    }
+.nav-links {
+    text-decoration: none;
+    color: white;
+}
+.nav-links:hover {
+    color: blue
 }
