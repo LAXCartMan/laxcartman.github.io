@@ -65,3 +65,7 @@ text-decoration: none;
         display: inline;
         font-size: 20px;
     }
+/* Animation Test */
+.animate__animate.animate__bounce {
+    --animation-duration: 5s;
+}
