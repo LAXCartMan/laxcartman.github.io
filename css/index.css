@@ -10,7 +10,7 @@ body {
     font-family: 'Orbitron';
     background-image: url(https://laxcartman.github.io/images/header-background.jpg);
     text-decoration: none;
-    border: 0px;
+    padding-top: 20px;
 }
 /* Background Custimization (Main)*/
 .gray-background {
@@ -36,7 +36,9 @@ text-decoration: none;
 .topnav {
     background-color: darkblue;
     overflow: hidden;
-   
+    position: fixed;
+    left: 0px;
+    top: 0px;
 }
   
   /* Style the links inside the navigation bar */
@@ -44,7 +46,7 @@ text-decoration: none;
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 219px;
     text-decoration: none;
     font-size: 17px;
     font-family: 'Courier New', Courier, monospace;
@@ -56,4 +58,10 @@ text-decoration: none;
     color: black;
     }
   
- 
+    .rounded-buttons {
+        border-radius: 12px;
+        padding: 20px;
+        border: none;
+        display: inline;
+        font-size: 20px;
+    }
