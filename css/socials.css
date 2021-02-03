@@ -1,3 +1,7 @@
+/* Make Scrool Bar */ 
+body {
+    min-heirgb(177, 177, 184) 150vh;
+}
 /* Header Text Customization */
 .header-text {
     color: blue;
