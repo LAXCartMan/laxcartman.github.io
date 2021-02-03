@@ -1,7 +1,3 @@
-/* Make Scrool Bar */ 
-body {
-    min-height: 150vh;
-}
 /* Header Text Customization */
 .header-text {
     color: blue;
