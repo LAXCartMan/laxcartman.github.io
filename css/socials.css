@@ -1,6 +1,6 @@
 /* Make Scrool Bar */ 
 body {
-    min-heirgb(177, 177, 184) 150vh;
+    min-height: 150vh;
 }
 /* Header Text Customization */
 .header-text {

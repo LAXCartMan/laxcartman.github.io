@@ -69,3 +69,7 @@ text-decoration: none;
 .animate__animate.animate__bounce {
     --animation-duration: 5s;
 }
+.f-image {
+    width: 100px;
+    height: 100px;
+}
