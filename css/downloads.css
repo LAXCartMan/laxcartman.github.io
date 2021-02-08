@@ -54,15 +54,6 @@ text-decoration: none;
     color: black;
     }
   
-    .rounded-buttons {
-        border-radius: 12px;
-        padding: 20px;
-        border: none;
-        display: inline;
-        font-size: 20px;
-        right: 100px;
-    }
-
 /* Downloads Custimization */
 .d {
     width: 300px;
@@ -248,4 +239,15 @@ text-decoration: none;
 }
 .f-text {
   text-align: center;
+  position: absolute;
+  top: 1400px;
 }
+.bottom-text {
+  background-color:darkblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 100px;
+    top: 1144px;
+    position: absolute;
+  }
