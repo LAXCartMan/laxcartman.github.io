@@ -22,6 +22,10 @@ body {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: white;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0px;
 }
 /* No Link Decoration */ 
 .page-links {
@@ -76,7 +80,6 @@ text-decoration: none;
     margin-right: auto;
     padding-left: 150px;
     padding-right: 150px;
-}
-.f-text {
-    text-align: center;
+    position: relative;
+    top: 100px;
 }
