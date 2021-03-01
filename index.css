@@ -80,6 +80,11 @@ body {
   font-family: 'Courier New';
   color: white;
   background-color: darkblue;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  text-align: center;
 }
 
 .f-text a {
@@ -125,5 +130,33 @@ body {
   margin: 10px;
   text-align: center;
   font-family: arial;
-  
+  float: left;
+}
+
+.card-1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 1920px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+  float: left;
+}
+.card-2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 1920px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  font-family: arial;
+  float: left;
+}
+.card-3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 1920px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  font-family: arial;
+  float: left;
 }
